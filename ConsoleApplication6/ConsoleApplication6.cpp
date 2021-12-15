@@ -37,74 +37,74 @@ int main(){
         std::vector<int> vector = { 1, 2, 0 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout <<"output: "<< firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 3, 4, -1, 1 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 7, 8, 9, 11, 12 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
     {
         std::vector<int> vector = { 4,3,4,1,1,4,1,4, 2 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 4,1,3,1,1,0,1,2 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 4,3,4,1,1,4,1,4 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 2 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { 0 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
     {
         std::vector<int> vector = { 1 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }
 
     {
         std::vector<int> vector = { -1, 0, -1, -2, -3, -4, -5, -6, -7, -8, -9 };
         std::cout << "input: ";
         printVector(vector);
-        std::cout << firstMissingPositive(vector) << std::endl;
+        std::cout << "output: " << firstMissingPositive(vector) << std::endl << std::endl;
     }    
 }
